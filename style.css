@@ -1,9 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 a{
     text-decoration: none;
+}
+
+ul{
+    list-style: none;
 }
 body{
     font-family: "Poppins", sans-serif;
@@ -17,7 +22,9 @@ body{
     margin: 0 auto;
 }
 .header{
-    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .nav-link{
     color: white;
@@ -33,11 +40,19 @@ body{
 .nav-list{
     display: flex;
     gap: 45px;
+    
 }
-
 
 .headerbtn{
   display: flex;
   gap: 15px;
   align-items: center;
+}
+
+.hero{
+ padding-top: 178px;
+ background-image: url(./images/hero.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
 }
