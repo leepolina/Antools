@@ -47,6 +47,7 @@ body{
   display: flex;
   gap: 15px;
   align-items: center;
+  background-color: transparent;
 }
 
 .hero{
@@ -55,4 +56,23 @@ body{
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
+}
+
+.hero-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: #FFFFFFE5;
+    padding-bottom: 30px;
+}
+
+.hero-title span{
+    color:#FF6E30;
+}
+
+.hero-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF8C;
 }
