@@ -3,47 +3,46 @@
   padding: 0;
   box-sizing: border-box;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
-body{
-    font-family: "Poppins", sans-serif;
-    background-color: #1e252b;
-    text-decoration: none;
-}
-
-.container{
-    width: 1245px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.nav-link{
-    color: white;
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1e252b;
+  text-decoration: none;
 }
 
-.logo{
-    font-family: "Poppins", sans-serif;
-    font-size:22px;
-    font-weight: 600;
-    color: #FFFFFFE5;
+.container {
+  width: 1245px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-link {
+  color: white;
 }
 
-.nav-list{
-    display: flex;
-    gap: 45px;
-    
+.logo {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffffe5;
 }
 
-.headerbtn{
+.nav-list {
+  display: flex;
+  gap: 45px;
+}
+
+.headerbtn {
   display: flex;
   gap: 15px;
   align-items: center;
@@ -51,16 +50,16 @@ body{
 }
 
 .loginbtn {
-  font-family:"Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 16px;
   border: none;
   background-color: transparent;
   color: #ffffffc7;
   padding-top: 12px;
-  padding-right:28px;
+  padding-right: 28px;
   padding-bottom: 12px;
-  padding-left:28px;
+  padding-left: 28px;
   border-radius: 8px;
 }
 .loginbtn:hover {
@@ -68,54 +67,77 @@ body{
   color: #fdf5ff;
 }
 
-.signupbtn{
-  font-family:"Poppins", sans-serif;
+.signupbtn {
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 16px;
   border: none;
   background-color: transparent;
   color: #ffffffc7;
   padding-top: 12px;
-  padding-right:28px;
+  padding-right: 28px;
   padding-bottom: 12px;
   padding-left: 28px;
   border-radius: 8px;
-
 }
 .signupbtn:hover {
   background-color: #ff6e30;
   color: #fdf5ff;
 }
 
-.hero{
- padding-top: 178px;
- background-image: url(./images/hero.png);
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
+.hero {
+  padding-top: 178px;
+  background-image: url(./images/hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.hero-title{
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 50px;
-    color: #FFFFFFE5;
-    padding-bottom: 30px;
+.hero-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: #ffffffe5;
+  padding-bottom: 30px;
 }
 
-.hero-title span{
-    color:#FF6E30;
+.hero-title span {
+  color: #ff6e30;
 }
 
-.hero-text{
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    color: #FFFFFF8C;
+.hero-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff8c;
 }
 
-.formsearch{
-    width: 497px;
-    border-radius: 15px;
-    height: 64px;
+.formsearch {
+  margin-top: 60px;
+  width: 497px;
+  border-radius: 15px;
+  height: 64px;
+  margin-left: 111px;
+  background-color: #283036;
+}
+
+
+.formbtn{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  color: #ffffffc7;
+  padding-top: 12px;
+  padding-right: 28px;
+  padding-bottom: 12px;
+  padding-left: 28px;
+  border-radius: 8px;
+}
+
+.formbtn:hover{
+  background-color: #ff6e30;
+  color: #fdf5ff;
 }
