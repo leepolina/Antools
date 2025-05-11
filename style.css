@@ -153,10 +153,43 @@ body {
   color: #fdf5ff;
 }
 
-.social-list{
+.social-list {
   display: flex;
   gap: 20px;
   margin-top: 121px;
 }
 
+.tools-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 2.7;
+  color: #ffffffe5;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.tools-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff8c;
+  width: 420px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+.tools-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.tools-item {
+  width: 392px;
+  padding: 33px;
+}
