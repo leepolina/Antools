@@ -301,5 +301,28 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 20px;
+    margin-top: 100px;
 }
   
+
+
+.brand-top{
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 2.4;
+  color: #FFFFFFCC;
+  display: flex;
+  align-items: center;
+  margin-top: 255px;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 107px;
+  margin-top: 55px;
+  margin-left: 82px;
+}
