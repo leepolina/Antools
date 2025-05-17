@@ -326,3 +326,37 @@ body {
   margin-top: 55px;
   margin-left: 82px;
 }
+
+.newtools-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 2.7;
+    margin-top: 200px;
+    color: #FFFFFFE5;
+}
+
+.newtools-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF8C;
+    padding-top: 21px;
+}
+
+
+.newtools-btn{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 1.8;
+    padding: 16px 40px 15px 40px;
+    border-radius: 8px;
+    margin-top: 60px;
+}
+
+.newtools-btn:hover{
+   background-color: #FF6E30;
+   color: #FFFFFF;
+}
