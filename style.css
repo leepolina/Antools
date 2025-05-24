@@ -349,7 +349,17 @@ body {
 }
 
 .brands {
+  border: 2px solid #2c353d33;
+  background: radial-gradient(
+      circle at top left,
+      rgba(200, 60, 60, 0.3) 0%,
+      #8d86860d 12%
+    ),
+    #1c242a;
+  margin-top: 200px;
+  border-radius: 25px;
   margin-bottom: 200px;
+  height: 253px;
 }
 
 .newtools {
@@ -366,7 +376,8 @@ body {
 }
 
 .newtools-textwrap {
-  width: 400px;
+  width: 800px;
+  margin-right: 200px;
 }
 
 .newtools-text {
@@ -392,15 +403,7 @@ body {
   background-color: #ff6e30;
   color: #ffffff;
 }
-
-.newtools-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 23px;
-  margin-left: 100px;
-
-}
-
+ 
 .newtools-item {
   max-width: 288px;
   padding: 33px;
@@ -442,8 +445,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
-  box-sizing: border-box;
-  margin-bottom: 250px;
+  margin-bottom: 200px;
 }
 
 .newname-tools {
@@ -508,6 +510,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+  margin-bottom: 240px;
 }
 
 .contributor-title {
@@ -564,3 +567,93 @@ body {
   background-color: #ff6e30;
   color: #fdf5ff;
 }
+
+
+.footer {
+    border-top: 0.5px solid #ffffff26;
+}
+
+.footer-container {
+    display: flex;
+    padding: 70px 0 98px 0;
+}
+
+.logotype-list {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logotype-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #ffffffe5;
+    margin-top: 25px;
+    margin-bottom: 21px;
+}
+  .logotype-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #ffffff8c;
+}
+  
+.list-of-lists {
+    display: flex;
+    padding: 0;
+    gap: 115px;
+}
+  
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-title {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffffe5;
+}
+
+.footer-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #ffffff8c;
+    margin-bottom: 10px;
+}
+  
+.list-of-lists:nth-child(2) {
+    align-items: flex-start;
+}
+.logofooter img {
+    margin-right: 12px;
+}
+.antools-footer {
+    font-weight: 600;
+    font-size: 22px;
+    color: #ffffffe5;
+    vertical-align: 10px;
+}
+.logotype-list {
+    max-width: 260px;
+    margin-right: 156px;
+}
+.footer-list:nth-child(1) {
+    max-width: 197px;
+    margin-right: 115px;
+}
+  .footer-list:nth-child(2) {
+    max-width: 112px;
+    margin-right: 115px;
+  }
+  .footer-list:nth-child(3) {
+    max-width: 180px;
+  }
