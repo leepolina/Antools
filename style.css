@@ -19,6 +19,7 @@ body {
   width: 1245px;
   padding: 0 15px;
   margin: 0 auto;
+  border: 1px solid red;
 }
 .header {
   display: flex;
@@ -35,6 +36,24 @@ body {
   font-size: 22px;
   font-weight: 600;
   color: #ffffffe5;
+}
+
+.logo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+}
+.logo::before {
+  content: "";
+  display: inline-block;
+  width: 19.29px;
+  height: 20.95px;
+  background-image: url(./images/antools\ header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 21.46px;
 }
 
 .nav-list {
@@ -90,7 +109,6 @@ body {
   background-image: url(./images/hero.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .hero-title {
@@ -111,8 +129,12 @@ body {
   font-size: 18px;
   line-height: 30px;
   color: #ffffff8c;
+  margin-bottom: 60px;
 }
 
+.form {
+  position: relative;
+}
 .formsearch {
   width: 497.6px;
   border: 1.5px solid #ffffff1a;
@@ -121,7 +143,6 @@ body {
   padding: 21px 22px;
   text-align: left;
   border-radius: 15px;
-  margin-top: 60px;
 }
 
 .formsearch::before {
@@ -145,6 +166,9 @@ body {
   padding-bottom: 12px;
   padding-left: 28px;
   border-radius: 8px;
+  position: absolute;
+  left: 30%;
+  top: 10px;
 }
 
 .formbtn:hover {
@@ -324,29 +348,26 @@ body {
   margin-left: 82px;
 }
 
-
-.brands{
-    margin-bottom:200px ;
+.brands {
+  margin-bottom: 200px;
 }
 
-.newtools{
-    display: flex;
-    gap: 197px;
-    justify-content: space-between;
+.newtools {
+  display: flex;
+  justify-content: space-between;
 }
 
 .newtools-title {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 48px;
-  line-height: 2.7;
+  line-height: 1.2;
   color: #ffffffe5;
 }
 
-.newtools-textwrap{
-    width: 425px;
+.newtools-textwrap {
+  width: 400px;
 }
-
 
 .newtools-text {
   font-family: "Poppins", sans-serif;
@@ -376,10 +397,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 23px;
+  margin-left: 100px;
+
 }
 
 .newtools-item {
-  max-width: 380px;
+  max-width: 288px;
   padding: 33px;
   border-radius: 15px;
 }
@@ -479,59 +502,62 @@ body {
   padding-bottom: 4.37px;
 }
 
-
-
-.contributor-title{
-    color: #FFFFFFE5;
-    font-family: "Poppins", sans-serif;
-    font-family: 500;
-    font-size: 48px;
-    line-height: 2.7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 25px;
+.contributorform {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-
-.contributor-text{
-    color: #FFFFFF8C;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.contributor-title {
+  color: #ffffffe5;
+  font-family: "Poppins", sans-serif;
+  font-family: 500;
+  font-size: 48px;
+  line-height: 2.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
 }
 
-
-.enteremail{
-    width: 549px;
-    border: 1.5px solid #ffffff1a;
-    color: #ffffff61;
-    background-color: #283036;
-    padding: 22px;
-    text-align: left;
-    border-radius: 15px;
-    margin-top: 100px;
+.contributor-text {
+  color: #ffffff8c;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.joinbtn{
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    border: none;
-    background-color: transparent;
-    color: #ffffffc7;
-    padding-top: 12px;
-    padding-right: 36.4px;
-    padding-bottom: 12px;
-    padding-left: 35.8px;
-    border-radius: 8px;
+.enteremail {
+  width: 549px;
+  border: 1.5px solid #ffffff1a;
+  color: #ffffff61;
+  background-color: #283036;
+  padding: 22px;
+  text-align: left;
+  border-radius: 15px;
 }
 
+.joinbtn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  color: #ffffffc7;
+  padding-top: 12px;
+  padding-right: 36.4px;
+  padding-bottom: 12px;
+  padding-left: 35.8px;
+  border-radius: 8px;
+  position: absolute;
+  left: 60%;
+}
 
 .joinbtn:hover {
   background-color: #ff6e30;
