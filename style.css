@@ -19,7 +19,6 @@ body {
   width: 1245px;
   padding: 0 15px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 .header {
   display: flex;
@@ -218,6 +217,16 @@ body {
   border-radius: 15px;
 }
 
+.tools-item:hover{
+    border: 2px solid #2c353d33;
+    background: radial-gradient(
+      circle at top left,
+      rgba(200, 60, 60, 0.3) 0%,
+      #8d86860d 12%
+    ),
+    #1c242a;
+}
+
 .tools-top {
   display: flex;
   align-items: center;
@@ -231,6 +240,20 @@ body {
 
 .tools-buttons-list {
   display: flex;
+}
+
+.toolsvisitbtn{
+    width: 106px;
+    height: 42px;
+    margin-top: 9px;
+    margin-right: 35px;
+    margin-bottom: 9px;
+    margin-left: 35px;
+}
+
+.toolsvisitbtn:hover{
+    background-color: #ff6e30;
+    color: #fdf5ff;
 }
 
 .tools-top > div p {
@@ -335,7 +358,6 @@ body {
   color: #ffffffcc;
   display: flex;
   align-items: center;
-  margin-top: 255px;
   justify-content: center;
   align-items: center;
 }
@@ -404,11 +426,38 @@ body {
   color: #ffffff;
 }
  
+.newtoolsvisitbtn{
+    width: 106px;
+    height: 42px;
+    margin-top: 9px;
+    margin-right: 35px;
+    margin-bottom: 9px;
+    margin-left: 35px;
+}
+
+
+.newtoolsvisitbtn:hover{
+    background-color: #ff6e30;
+    color: #ffffff;-
+}
+
+
 .newtools-item {
   max-width: 288px;
   padding: 33px;
   border-radius: 15px;
 }
+
+.newtools-item:hover{
+    border: 2px solid #2c353d33;
+    background: radial-gradient(
+      circle at top left,
+      rgba(200, 60, 60, 0.3) 0%,
+      #8d86860d 12%
+    ),
+    #1c242a;
+}
+
 
 .newtools-top {
   display: flex;
